@@ -3,22 +3,55 @@ html {
   font-size: 16px;   
 }
 body {
-  background: url(../images/cork-wallet.png) repeat;
+  background: url(../images/evergreen-olympic-national-forest-2800x2100.jpg) no-repeat top center;
   margin: 2rem;
+  background-blend-mode: lighten;
+  background-size: cover;
 }
 
 header {
-  background-color: gray;
+/*
   padding: 2rem;
   border-radius: 1rem;
   width: 95%;
+*/
+/*  background-color: #BDBDBD;*/
+}
+
+nav {
+  background-color: #BDBDBD;
+  padding: .5rem;
+}
+
+h1, h2 {
+  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+  font-size: 40px;
+  padding: 10px 5px;
+  text-align: center;
+  text-transform: uppercase;
+  text-rendering: optimizeLegibility;
+  
+  color: #202020;
+/*    background-color: #2d2d2d;*/
+    letter-spacing: .1em;
+    text-shadow: 
+      -1px -1px 1px #111, 
+      2px 2px 1px #363636;
+}
+
+h2 { 
+  font-size: 20px; 
+  padding: 5px 5px;
 }
 
 img {
   display: block;
   margin: auto;  
   border-radius: 1rem;
-  background-color: grey;
+  border-color: #00897B;
+  
+/*  background-color: #B2DFDB;*/
+  background-color: #BDBDBD;
 }
 
 img.img-lg {
@@ -51,7 +84,7 @@ img.img-sm-lt {
   float: left;
   width: 200px; 
   height: 250px;
-  margin-left: 5rem;
+  margin-left: 2rem;
   margin-top: 1rem;
 }
 
@@ -101,7 +134,7 @@ footer {
   display: block;
   float: left;
   width: 95%;
-  background-color: gray;
+  background-color: #BDBDBD;
   padding: 2rem;
   border-radius: 1rem;
   margin-bottom: 1rem;
