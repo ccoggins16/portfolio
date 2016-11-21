@@ -1,0 +1,106 @@
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;   
+}
+body {
+  background: url(../images/cork-wallet.png) repeat;
+  margin: 2rem;
+}
+
+header {
+  background-color: gray;
+  padding: 2rem;
+  border-radius: 1rem;
+  width: 95%;
+}
+
+img {
+  display: block;
+  margin: auto;  
+  border-radius: 1rem;
+  background-color: grey;
+}
+
+img.img-lg {
+  float: left;
+  width: 80%;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  margin-left: 3rem;
+  padding: 12px 6px;
+}
+
+div.sec {
+  margin-top: 2rem;
+  height: 390px;
+}
+
+div.sec-sm {
+  margin-top: 2rem;
+  height: 300px;
+}
+
+img.img-med-lt {
+  display: block;  
+  height: auto;
+  padding: 12px 6px;
+}
+
+img.img-sm-lt {
+  padding: 12px 6px;
+  float: left;
+  width: 200px; 
+  height: 250px;
+  margin-left: 5rem;
+  margin-top: 1rem;
+}
+
+div.img-cont {
+  width 15%;
+}
+
+img.img-ct {
+  float: left;
+  width: 48%;
+  padding: 12px 6px;
+  margin-top: 1rem;
+}
+
+.lt {
+  float: left;
+  width: 100%;
+}
+
+.rt {
+  float: right;
+  width: 49%;
+}
+
+p.p-lt {
+  float: left;
+  width: 50%;
+}
+
+p.p-rt {
+  float: right;
+  width: 70%;
+  margin-left: 1rem;
+  padding-left: 1rem;
+  height: 250px;
+} 
+
+aside {
+  display: block;
+  float: left;
+  width: 100%;
+  }
+
+footer {
+  display: block;
+  float: left;
+  width: 95%;
+  background-color: gray;
+  padding: 2rem;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+}
