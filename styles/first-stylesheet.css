@@ -76,6 +76,8 @@ img.img-ct {
   width: 49%;
 }
 
+p { font-family: 'Roboto Slab', serif; }
+
 p.p-lt {
   float: left;
   width: 50%;
