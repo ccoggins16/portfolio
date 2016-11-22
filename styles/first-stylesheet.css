@@ -98,11 +98,7 @@ img.img-lg {
 
 div.sec {
   margin-top: 2rem;
-  height: 50%;
-/*
-  z-index: -1;
-  position: relative;
-*/
+  height: 350px;
 }
 
 div.sec-sm {
@@ -147,6 +143,8 @@ img.img-ct {
   width: 450px;
   -webkit-transform: height(300px), width(450px);
   transform: height(300px), width(450px);
+  position: static;
+  z-index: 0;
 }
 
 .lt {
@@ -156,8 +154,8 @@ img.img-ct {
 
 .rt {
   float: right;
-  width: 40%;
-  margin-right: 8rem;
+  width: 60%;
+  margin-right: 3rem;
 }
 
 p { font-family: 'Roboto Slab', serif; }
