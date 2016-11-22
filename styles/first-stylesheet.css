@@ -7,6 +7,19 @@ body {
   margin: 2rem;
   background-blend-mode: lighten;
   background-size: cover;
+  z-index: 1;
+}
+
+.drop {
+  background:-webkit-gradient(linear,0% 0%,0% 100%, from(rgba(13,52,58,1) ), to(rgba(255,255,255,0.6))  );
+  background: -moz-linear-gradient(top, rgba(13,52,58,1) 0%, rgba(255,255,255,.6) 100%);
+	width:1px;
+	height:89px;
+	position: absolute;
+	bottom:200px;
+	-webkit-animation: fall .63s linear infinite;
+  -moz-animation: fall .63s linear infinite;
+  
 }
 
 header {
@@ -19,8 +32,17 @@ header {
 }
 
 nav {
-  background-color: #BDBDBD;
+/*  background-color: #BDBDBD;*/
   padding: .5rem;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 2rem;
+}
+
+nav a {
+  padding-right: 2rem;
+  padding-left: 2rem;
+  color: #202020;
 }
 
 h1, h2 {
@@ -29,14 +51,11 @@ h1, h2 {
   padding: 10px 5px;
   text-align: center;
   text-transform: uppercase;
-  text-rendering: optimizeLegibility;
-  
+  text-rendering: optimizeLegibility;  
   color: #202020;
-/*    background-color: #2d2d2d;*/
-    letter-spacing: .1em;
-    text-shadow: 
-      -1px -1px 1px #111, 
-      2px 2px 1px #363636;
+  letter-spacing: .1em;
+  text-shadow: -1px -1px 1px #111, 
+               2px 2px 1px #363636;
 }
 
 h2 { 
@@ -49,9 +68,9 @@ img {
   margin: auto;  
   border-radius: 1rem;
   border-color: #00897B;
-  
-/*  background-color: #B2DFDB;*/
   background-color: #BDBDBD;
+  z-index: -1;
+  position: relative;
 }
 
 img.img-lg {
@@ -128,14 +147,40 @@ aside {
   display: block;
   float: left;
   width: 100%;
+  color: whitesmoke;
+  
   }
+
+aside a {
+  color: whitesmoke;
+  font-size: 16px;
+}
 
 footer {
   display: block;
-  float: left;
-  width: 95%;
-  background-color: #BDBDBD;
+  width: 95%; 
   padding: 2rem;
   border-radius: 1rem;
-  margin-bottom: 1rem;
+  margin-bottom: 1rem; 
+  float: right;
+  text-align: center;
+}
+
+footer li {
+  color: whitesmoke;
+}
+
+footer a {
+  text-align: center;
+  font-size: 20px;
+  color: whitesmoke;
+  padding: 2rem;
+}
+
+/* animate the drops*/
+@-webkit-keyframes fall {
+	to {margin-top:900px;}
+}
+@-moz-keyframes fall {
+	to {margin-top:900px;}
 }

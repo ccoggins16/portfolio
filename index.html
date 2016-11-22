@@ -5,15 +5,19 @@
     <title>Portfolio Assignment</title>
     <link rel="stylesheet" href="styles/first-stylesheet.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src=js/rain.js></script>
   </head>
   <body>    
-    <article>
+    <article class="rain">
       <h1>The Pacific Northwest In Pictures</h1>
       <h2>by Chris Coggins</h2> 
       <nav>
         <a href="index.html">Home</a>
         <a href="projects.html">Projects</a>
-        <a href="images-large.html">More Large Images</a>
+        <a href="images-large.html">Large Images</a>
+        <a href="#" onclick="createRain();">Make It Rain</a>
+        <a href="index.html">Stop the Rain</a>
       </nav>
       <div class="sec">
         <p class="rt">
@@ -42,6 +46,9 @@
       <aside>
         <h3>Further Reading</h3>
         <ul>
+          <li>
+            <a href="https://codepen.io/alemesre/pen/hAxGg">CSS Rain (A PEN BY Aurélien Lemesre - Codepen.io)</a>
+          </li>
           <li>
             <a href="http://www.lipsum.com/">Lorem Ipsum</a>
           </li>
