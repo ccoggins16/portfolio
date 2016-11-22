@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Portfolio Assignment</title>
+    <title>Seattle Rain</title>
     <link rel="stylesheet" href="styles/first-stylesheet.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
@@ -14,15 +14,25 @@
       <h1>The Pacific Northwest In Pictures</h1>
       <h2>by Chris Coggins</h2> 
       <nav>
-        <a href="index.html">Home</a>
-        <a href="projects.html">Projects</a>
-        <a href="images-large.html">Large Images</a>
-        <a href="#" onclick="createRain();"><i class="fa fa-tint fa-2x" aria-hidden="true"></i></a>
-        <a href="index.html"><i class="fa fa-sun-o fa-2x" aria-hidden="true"></i></a>
+        <div class="nav-cntr">
+          <a href="index.html" id="home">Home</a>
+        </div>
+        <div class="nav-cntr">
+          <a href="projects.html" id="projects">Projects</a>
+        </div>
+        <div class="nav-cntr-lg">
+          <a href="images-large.html" id="large">Large Images</a>
+        </div>
+        <div class="nav-cntr">
+          <a href="#" onclick="createRain();" id="makerain"><i class="fa fa-tint fa-2x" aria-hidden="true" ></i></a>
+        </div>
+        <div class="nav-cntr">
+          <a href="index.html" id="makesun"><i class="fa fa-sun-o fa-2x" aria-hidden="true"></i></a>
+        </div>        
       </nav>
       <div class="sec">
         <p class="rt">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eu tellus nunc. Vivamus turpis urna, tempor et felis eget, interdum condimentum ex. Suspendisse venenatis placerat dui in pulvinar. In hac habitasse platea dictumst. Nunc quis accumsan leo, eu aliquet erat. Nulla condimentum tristique nisl, sit amet sodales libero bibendum eget. Etiam eleifend porta semper. Nulla vitae cursus lorem. Aenean leo mauris, mollis et nisl non, porta volutpat massa. Donec mollis interdum massa, et commodo nibh eleifend sit amet. Nam sit amet dictum eros. Duis eget sem nunc. Donec ullamcorper convallis lorem, quis scelerisque felis. Donec cursus maximus massa.    
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eu tellus nunc. Vivamus turpis urna, tempor et felis eget, interdum condimentum ex. Suspendisse venenatis placerat dui in pulvinar. In hac habitasse platea dictumst. Nunc quis accumsan leo, eu aliquet erat. Nulla condimentum tristique nisl, sit amet sodales libero bibendum eget.   
         </p>
         <img class="img-ct" src="images/idaho-mountain-pass.jpg" alt="Idaho Mountain Pass">
       </div>
