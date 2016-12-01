@@ -60,6 +60,12 @@ nav a {
   transform: font-size(22px);
 }
 
+/*
+#makesun:click {
+  -webkit-transform: background
+}
+*/
+
 h1, h2 {
   font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
   font-size: 40px;
@@ -121,7 +127,10 @@ img.img-sm-lt {
   margin-top: 1rem;
   z-index: 0;
   position: relative;
-  -webkit-transition: all .5s;
+  -webkit-transition: all .5s ease;
+  -moz-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
   transition: all .5s;
 }
 
@@ -147,14 +156,18 @@ img.img-ct {
   margin-right: 2rem;
   z-index: 0;
   position: relative;
-  -webkit-transition: all .5s;
-  transition: all .5s;
+  -webkit-transition: all .5s ease;
+  -moz-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  transition: all .5s ease;
 }
 
 .img-ct:hover {
   height: 300px;
   width: 450px;
   -webkit-transform: height(300px), width(450px);
+  -moz-transform: height 300px, width 450px;
   transform: height(300px), width(450px);
   position: static;
   z-index: 0;
