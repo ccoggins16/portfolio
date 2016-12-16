@@ -10,10 +10,10 @@ function createRain() {
     var dropLeft = randRange(0,1600);
     var dropTop = randRange(-1000,1400);
     $('.rain').append('<div class="drop" id="drop'+i+'"></div>');
+    $('#drop'+i).css('z-index',"5");
     $('#drop'+i).css('left',dropLeft);
     $('#drop'+i).css('top',dropTop);
-    
-    
+        
   }
 }
 
